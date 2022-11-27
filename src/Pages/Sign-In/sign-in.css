@@ -1,0 +1,15 @@
+.sign-in-container {
+    background: url(../../Images/sign-in-bg.svg) !important;
+}
+.sign-in-form-cta button {
+    background: #4CD3E3;
+    border-color: #4CD3E3;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    color: #CC2828;
+}
