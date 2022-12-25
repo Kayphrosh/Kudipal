@@ -147,6 +147,7 @@
     background: #060D1C;
     border-radius: 3px;
     color: #FFF;
+    border-radius: 32px;
 }
 
 .recent-transactions {
@@ -156,7 +157,7 @@
     padding: 1rem 2rem;
     margin-top: 3rem;
     border:1px solid rgba(101, 100, 104, 0.19);
-    border-radius: 12px;
+    border-radius: 12px !important;
 }
 
 .recent-transactions thead tr {

@@ -23,7 +23,10 @@ const SignInForm = () => {
       </form>
 
       <div className="form-cta sign-in-form-cta">
+        <Link to="/dashboard">
         <button>Login</button>
+        </Link>
+
 
         <p>Don't have an account?</p>
       </div>

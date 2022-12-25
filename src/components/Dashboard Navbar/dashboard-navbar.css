@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     height: 120px;
+    background-color: #060D1C;
     border-bottom: 1px solid rgba(101, 100, 104, 0.19);
     padding: 0 5%;
     z-index: 1111;
@@ -24,10 +25,15 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.dashboard-nav-links li {
+.dashboard-nav-links li a{
     font-family: 'cabinet-grotesk-regular';
     color: #FFF;
     font-size: 20px;
+    text-decoration: none;
+}
+.dashboard-nav-links li a:hover {
+    color: #4CD3E3;
+    transition: 0.4s ease-in-out;
 }
 /* .dashboard-nav-links .active-link {
     border-bottom: 2px solid #000;

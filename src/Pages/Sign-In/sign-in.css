@@ -5,6 +5,11 @@
     background: #4CD3E3;
     border-color: #4CD3E3;
 }
+.sign-in-form-cta button:hover {
+    background: #8490FF;
+    border-color: #8490FF;
+    transition: 0.5s ease-in-out;
+}
 
 .forgot-password {
     display: flex;

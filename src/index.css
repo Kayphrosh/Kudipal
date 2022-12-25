@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -37,4 +39,14 @@ body {
   font-size: 16px;
   background: #FFF;
   color: #060D1C;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'cabinet-grotesk-regular';
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
 }

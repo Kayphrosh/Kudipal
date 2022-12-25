@@ -1,0 +1,28 @@
+.transaction-list-container {
+  margin-top: 180px;
+  padding: 0 5%;
+}
+.transaction-list-container header {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-list-container header h3 {
+  font-family: "cabinet-grotesk-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #060D1C;
+}
+.transaction-list-container header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  width: 100%;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: #8490FF;
+  color: #FFF;
+  font-size: 16px;
+}/*# sourceMappingURL=transaction-list.css.map */

@@ -1,0 +1,165 @@
+.transaction-balance {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 180px;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-family: 'cabinet-grotesk-medium';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            color: #060D1C;
+        }
+
+        .transaction-cta {
+            display: flex;
+            column-gap: 1rem;
+
+            button {
+                width: 100%;
+                min-width: 170px;
+                height: 50px;
+                border-radius: 50px;
+            }
+            .widthrawal-btn {
+                background: none;
+                border: 0.638138px solid #8490FF;
+                font-family: 'cabinet-grotesk-regular';
+                font-size: 16px;
+                color: #060D1C;
+            }
+            .fund-btn {
+                background: #8490FF;
+                border: 0.638138px solid #8490FF;
+                color: #FFF;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    main {
+        margin-top: 49px;
+        display: flex;
+        column-gap: 49px;
+
+
+        div {
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            background: #FFFFFF;
+            border: 1px solid rgba(101, 100, 104, 0.19);
+            border-radius: 10px;
+            padding: 32px;
+        }
+        .total-available-balance {
+            flex-basis: 40%;
+            justify-content: space-between;
+
+            header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    column-gap: .3rem;
+                    width: 100px;
+                    height: 36px;
+                    border: 1px solid rgba(101, 100, 104, 0.19);
+                    border-radius: 42px;
+
+                    .trend-up-icon {
+                        color: #04A068;
+                    }
+                    p {
+                        color: #060D1C;
+                    }
+                }
+            }
+
+            h3 {
+                font-family: 'cabinet-grotesk-bold';                font-style: normal;
+                font-weight: 800;
+                font-size: 36px;
+                color: #060D1C;
+            }
+        }
+
+        .create-new-link-div {
+            display: flex;
+            justify-content: space-between;
+            flex-basis: 20%;
+            background: #045059;
+
+            h4 {
+                font-family: 'cabinet-grotesk-bold'; 
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 35px;
+                color: #4CD3E3;
+
+
+            }
+            span {
+                display: flex;
+                column-gap: 4px;
+                align-items: center;
+                color: #FFF;
+            }
+        }
+    }
+}
+
+
+
+.recent-transaction-table.transaction-list-container {
+
+
+    header {
+
+        h4 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 34px;
+            color: #060D1C;
+        }
+        span {
+            display: flex;
+            align-self: center;
+            column-gap: 8px;
+            background: none;
+            width: 120px;
+            height: 50px;
+            border: 1px solid rgba(101, 100, 104, 0.19);
+            border-radius: 50px;
+            color: #060D1C;
+            cursor: pointer;
+
+            .filter-icon {
+                font-size: 22px;
+                color: #8490FF;
+            }
+
+        }
+        span:hover {
+            border-color: #8490FF;
+        }
+
+    }
+
+    table {
+        border-radius: 12px ;
+    }
+}
