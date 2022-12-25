@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './list.css';
 const List = () => {
   return (
-    <main className='transaction-list-container'>
+    <main className='list-container'>
       <header>
         <h3>Transaction List</h3>
         <Link to="/dashboard/create-transaction-link">

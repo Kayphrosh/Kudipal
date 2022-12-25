@@ -13,7 +13,6 @@ const TrasactionList = () => {
           </span>
         </header>
 
-        <main></main>
         <table className="recent-transactions">
           <thead>
             <tr>
@@ -51,7 +50,7 @@ const TrasactionList = () => {
               <td>14th Jan, 2022</td>
               <td>1111</td>
             </tr>
-            
+
             <tr>
               <td>#11100</td>
               <td>Car Rental</td>
