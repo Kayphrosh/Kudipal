@@ -26,6 +26,7 @@
   min-width: 170px;
   height: 50px;
   border-radius: 50px;
+  transition: all 0.4s ease-in-out;
 }
 .transaction-balance header .transaction-cta .widthrawal-btn {
   background: none;
@@ -34,11 +35,18 @@
   font-size: 16px;
   color: #060D1C;
 }
+.transaction-balance header .transaction-cta .widthrawal-btn:hover {
+  background: #060D1C;
+  color: #FFF;
+}
 .transaction-balance header .transaction-cta .fund-btn {
   background: #8490FF;
   border: 0.638138px solid #8490FF;
   color: #FFF;
   font-size: 16px;
+}
+.transaction-balance header .transaction-cta .fund-btn:hover {
+  background: #4CD3E3;
 }
 .transaction-balance main {
   margin-top: 49px;
@@ -102,12 +110,15 @@
   line-height: 35px;
   color: #4CD3E3;
 }
-.transaction-balance main .create-new-link-div span {
+.transaction-balance main .create-new-link-div a span {
   display: flex;
   -moz-column-gap: 4px;
        column-gap: 4px;
   align-items: center;
   color: #FFF;
+}
+.transaction-balance main .create-new-link-div a span:hover {
+  color: #8490FF;
 }
 
 .recent-transaction-table.transaction-list-container header h4 {

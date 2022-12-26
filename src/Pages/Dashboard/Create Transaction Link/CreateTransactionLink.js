@@ -23,7 +23,7 @@ const CreateTransactionLink = () => {
       </header>
 
       <main>
-        <h3>Create New Transaction Link</h3>
+        <h4>Create New Transaction Link</h4>
 
         <form action="">
           <label htmlFor="">Transaction Name</label>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './dashboard-navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import userAvatar from '../../Images/user-avatar.svg';
 
 const DashboardNavbar = () => {
@@ -11,20 +11,37 @@ const DashboardNavbar = () => {
       </div>
 
       <ul className="dashboard-nav-links">
-        <li className="active-link">
-          <Link to="/dashboard">Overview</Link>
-        </li>
-        <li>
-          <Link to="/dashboard/transactions">Transactions</Link>
-        </li>
+        <NavLink
+          className="link"
+          to="/dashboard"
+          id={window.location.pathname === '/dashboard' ? 'active' : ''}
+        >
+          Overview
+        </NavLink>
+        <NavLink
+          className="link"
+          to="/dashboard/transactions"
+          id={window.location.pathname === "/dashboard/transactions" ? 'active' : ''}
+        >
+          Transactions
+        </NavLink>
 
-        <li>
-          <Link to="/dashboard/transaction-links">Links</Link>
-        </li>
+        <NavLink
+          className="link"
+          to="/dashboard/transaction-links"
+          id={window.location.pathname === "/dashboard/transaction-links" ? 'active' : ''}
+        >
+          Links
+        </NavLink>
 
-        <li>
-          <Link to="/dashboard/settings">Settings</Link>
-        </li>
+        <NavLink
+          className="link"
+          to="/dashboard/settings"
+          id={window.location.pathname === "/dashboard/settings" ? 'active' : ''}
+        >
+          Settings
+        </NavLink>
+
       </ul>
 
       <div className="user-avatar">

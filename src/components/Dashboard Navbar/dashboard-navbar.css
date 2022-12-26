@@ -25,13 +25,14 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.dashboard-nav-links li a{
+.dashboard-nav-links .link{
     font-family: 'cabinet-grotesk-regular';
     color: #FFF;
     font-size: 20px;
     text-decoration: none;
 }
-.dashboard-nav-links li a:hover {
+.dashboard-nav-links li a:hover,
+.dashboard-nav-links #active {
     color: #4CD3E3;
     transition: 0.4s ease-in-out;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './dashboard-transaction.css';
 import { Icon } from '@iconify/react';
 const TransactionBalance = () => {
@@ -19,7 +20,7 @@ const TransactionBalance = () => {
             <p>Total Available Balance</p>
 
             <span>
-            <Icon className='trend-up-icon' icon="icon-park-solid:trend" />
+              <Icon className="trend-up-icon" icon="icon-park-solid:trend" />
               +20%
             </span>
           </header>
@@ -32,7 +33,7 @@ const TransactionBalance = () => {
             <p>Total Pending Balance</p>
 
             <span>
-            <Icon icon="icon-park-solid:trend" />
+              <Icon icon="icon-park-solid:trend" />
               +20%
             </span>
           </header>
@@ -43,10 +44,12 @@ const TransactionBalance = () => {
         <div className="create-new-link-div">
           <h4>Create A New transaction Link</h4>
 
-          <span>
-            proceed
-            <Icon icon="mdi:arrow-top-right" />
-          </span>
+          <Link to="/dashboard/create-transaction-link">
+            <span>
+              proceed
+              <Icon icon="mdi:arrow-top-right" />
+            </span>
+          </Link>
         </div>
       </main>
     </div>

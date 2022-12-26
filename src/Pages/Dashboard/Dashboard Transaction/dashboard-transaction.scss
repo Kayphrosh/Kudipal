@@ -26,6 +26,7 @@
                 min-width: 170px;
                 height: 50px;
                 border-radius: 50px;
+                transition: all 0.4s ease-in-out;
             }
             .widthrawal-btn {
                 background: none;
@@ -34,12 +35,20 @@
                 font-size: 16px;
                 color: #060D1C;
             }
+            .widthrawal-btn:hover {
+                background: #060D1C;
+                color: #FFF;
+            }
             .fund-btn {
                 background: #8490FF;
                 border: 0.638138px solid #8490FF;
                 color: #FFF;
                 font-size: 16px;
             }
+            .fund-btn:hover {
+                background: #4CD3E3;
+            }
+            
         }
     }
 
@@ -111,12 +120,18 @@
 
 
             }
-            span {
-                display: flex;
-                column-gap: 4px;
-                align-items: center;
-                color: #FFF;
+            a {
+                span {
+                    display: flex;
+                    column-gap: 4px;
+                    align-items: center;
+                    color: #FFF;
+                }
+                span:hover {
+                    color: #8490FF;
+                }
             }
+
         }
     }
 }
@@ -127,7 +142,9 @@
 
 
     header {
-
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
         h4 {
             font-style: normal;
             font-weight: 500;

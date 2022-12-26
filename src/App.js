@@ -6,6 +6,9 @@ import DasbhoardContainer from './Pages/Dashboard/Dashboard Overview/DasbhoardCo
 import DashboardTransactionContainer from './Pages/Dashboard/Dashboard Transaction/DashboardTransactionContainer';
 import CreateTransactionLink from './Pages/Dashboard/Create Transaction Link/CreateTransactionLink';
 import TransactionListContainer from './Pages/Dashboard/Dashboard List/ListContainer';
+import DashboardSettingsContainer from './Pages/Dashboard/Dashboard Settings/DashboardSettingsContainer';
+
+
 function App() {
   return (
     <>
@@ -21,6 +24,7 @@ function App() {
 
           <Route path="/dashboard/transaction-links" element={<TransactionListContainer />}></Route>
 
+          <Route path="/dashboard/settings" element={<DashboardSettingsContainer />}></Route>
 
         </Routes>
         
