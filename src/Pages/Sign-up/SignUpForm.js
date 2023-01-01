@@ -34,7 +34,10 @@ const SignUpForm = () => {
       <div className="form-cta">
         <button>Sign Up</button>
 
-        <p>Already have an account?</p>
+        <p>Already have an account?
+
+          <Link to="/sign-in">Sign In</Link>
+        </p>
       </div>
     </main>
   );

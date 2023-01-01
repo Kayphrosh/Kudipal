@@ -29,9 +29,18 @@
 .create-transaction-container header span .save-draft-btn {
   border: 0.638138px solid #CC2828;
 }
+.create-transaction-container header span .save-draft-btn:hover {
+  background: #CC2828;
+  color: #FFF;
+  transition: all 0.4s linear;
+}
 .create-transaction-container header span .create-link-btn {
   background: #8490FF;
   color: #FFF;
+}
+.create-transaction-container header span .create-link-btn:hover {
+  background: #4CD3E3;
+  transition: all 0.4s linear;
 }
 .create-transaction-container main {
   padding: 0 5%;

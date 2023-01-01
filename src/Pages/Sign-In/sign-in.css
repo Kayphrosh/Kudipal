@@ -8,7 +8,7 @@
 .sign-in-form-cta button:hover {
     background: #8490FF;
     border-color: #8490FF;
-    transition: 0.5s ease-in-out;
+    transition: all 0.4s linear;
 }
 
 .forgot-password {

@@ -28,7 +28,9 @@ const SignInForm = () => {
         </Link>
 
 
-        <p>Don't have an account?</p>
+        <p>Don't have an account?
+          <Link to='/sign-up'>Sign Up</Link>
+        </p>
       </div>
     </main>
   );

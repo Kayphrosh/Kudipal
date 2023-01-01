@@ -32,9 +32,18 @@
             .save-draft-btn {
                 border: 0.638138px solid #CC2828;
             }
+            .save-draft-btn:hover {
+                background: #CC2828;
+                color: #FFF;
+                transition: all 0.4s linear;
+            }
             .create-link-btn {
                 background: #8490FF;
                 color: #FFF;
+            }
+            .create-link-btn:hover {
+                background: #4CD3E3;
+                transition: all 0.4s linear;
             }
         }
     }
