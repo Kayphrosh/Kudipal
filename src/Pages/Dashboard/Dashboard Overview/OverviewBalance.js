@@ -1,9 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './dashboard-overview.css';
 import userAvatar from '../../../Images/user-avatar.svg';
 import wavingHand from '../../../Images/waving-hand.svg';
 import moreIcon from '../../../Images/more.svg';
-const OverviewBalance = () => {
+
+const OverviewBalance = (props) => {
+  const navigate = useNavigate();
+
+  const navigateToWithdrawal = () => {
+    navigate('/withdrawal');
+  };
+
   return (
     <section className="overview-details-container">
       <main>
@@ -11,7 +19,7 @@ const OverviewBalance = () => {
           <img className="user-avatar-img" src={userAvatar} alt="" />
           <span>
             <h3>
-              Welcome back, John! <img src={wavingHand} alt="" />{' '}
+              Welcome back, John! <img src={wavingHand} alt="" />
             </h3>
             <p>Go through your account and explore the features</p>
           </span>
@@ -28,9 +36,9 @@ const OverviewBalance = () => {
               <h3>NGN12,000,000:00</h3>
             </div>
             <div className="balance-card-cta">
-              <button>Fund Wallet</button>
+              <button onClick={() => props.fundModal()}>Fund Wallet</button>
 
-              <button>Withdraw</button>
+              <button onClick={navigateToWithdrawal}>Withdraw</button>
             </div>
           </div>
 

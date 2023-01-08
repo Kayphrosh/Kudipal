@@ -7,7 +7,8 @@ import DashboardTransactionContainer from './Pages/Dashboard/Dashboard Transacti
 import CreateTransactionLink from './Pages/Dashboard/Create Transaction Link/CreateTransactionLink';
 import TransactionListContainer from './Pages/Dashboard/Dashboard List/ListContainer';
 import DashboardSettingsContainer from './Pages/Dashboard/Dashboard Settings/DashboardSettingsContainer';
-
+import WithdrawalContainer from './Pages/Dashboard/Withdrawal/WithdrawalContainer';
+import PaymentPage from './Pages/Payment/PaymentPage';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
 
           <Route path="/dashboard/settings" element={<DashboardSettingsContainer />}></Route>
 
+          <Route path="/payment" element={<PaymentPage />}></Route>
+
+          <Route path="/withdrawal" element={<WithdrawalContainer />}></Route>
         </Routes>
         
       </Router>

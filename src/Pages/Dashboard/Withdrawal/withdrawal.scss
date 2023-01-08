@@ -1,0 +1,374 @@
+.withdrawal-container {
+    margin-bottom: 2rem;
+    header {
+
+        h3 {
+            font-family: 'cabinet-grotesk-bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            color: #060D1C;
+
+        }
+    }
+
+    .withdrawal-cta {
+        display: flex;
+        justify-content: center;
+        column-gap: 1.5rem;
+        margin-top: 24px;
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            min-width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            color: #FFF;
+            font-size: 16px;
+        }
+        #previous {
+            border: 0.638138px solid #8490FF;
+            color: #060D1C;
+        }
+        #next {
+            background: #8490FF;
+        }
+    }
+}
+
+
+
+.withdrawal-form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+
+
+        span {
+            flex-direction: column;
+
+
+            h4 {
+                font-family: 'cabinet-grotesk-bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                color: #060D1C;
+            }
+
+            p {
+                margin-top: .5rem;
+            }
+        }
+
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 49px;
+            height: 49px;
+            border: 2px solid #4CD3E3;
+            border-radius: 100%;
+            position: relative;
+            font-family: 'cabinet-grotesk-bold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            color: #060D1C;            
+          }
+          
+          .circle-progress {
+            background-color: #333;
+            border-radius: 0 100% 100% 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+          }
+    }
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        padding: 4rem 2rem !important;
+        margin-top: 56px !important;
+        
+        div {
+            display: flex;
+            align-items: center;
+            border: 1px solid rgba(76, 211, 227, 0.2);
+            border-radius: 5px;
+            padding: 1.2rem 1.5rem;
+            cursor: pointer;
+
+
+            .icon-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 64px;
+                height: 64px;                
+                background: rgba(132, 144, 255, 0.1);
+                border-radius: 64px;      
+                font-size: 32px;
+                color: #8490FF;;
+            }
+
+            .account-details {
+                display: flex;
+                flex-direction: column;
+                margin-left: 2rem;
+
+
+                h5 {
+                    font-family: 'cabinet-grotesk-medium';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;                  
+                    color: #333333;                    
+                }
+
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;                    color: #555555;
+                    margin-top: .5rem;    
+                }
+            }
+
+            input {
+                margin: 0;
+                margin-left: auto;
+                width: 20px;
+                // border: 2px solid #8490FF;
+                border-color: #8490FF;
+                background: #8490FF;
+            }
+        }
+
+
+
+
+
+
+    }
+}
+
+.withdrawal-amount {
+
+    .available-amount {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        background: #060D1C;
+        padding: .8rem 2rem;
+        width: max-content;
+        font-family: 'cabinet-grotesk-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+
+        .withdraw-portion {
+            display: flex;
+            align-items: center;
+            column-gap: 1.5rem;
+            flex-direction: row !important;
+
+            p {
+                font-family: 'cabinet-grotesk-medium';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+            }
+            input {
+                margin: 0 !important;
+            }
+        }
+
+        #withdrawal-amount {
+            margin: 0 !important;
+            min-width: 100%;
+            height: 60px;
+            margin-top: 1rem !important;
+            background: #FFF;
+            border: 1px solid rgba(132, 144, 255, 0.5);
+            color: #060D1C !important;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}
+
+
+.withdrawal-confirmation {
+    margin-top: 0 !important;
+    .withdrawal-confirmation-details {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        padding: 2rem;
+        margin-top: 0;
+
+        span {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                font-family: 'cabinet-grotesk-medium';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px; 
+                color: #757575;                
+            }
+            h6 {
+                font-family: 'cabinet-grotesk-medium';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;    
+                text-align: right;            
+                color: #333333;                
+            }
+        }
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+
+        p {
+            font-family: 'cabinet-grotesk-medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        #withdrawal-amount {
+            margin: 0 !important;
+            min-width: 100%;
+            height: 60px;
+            margin-top: 1rem !important;
+            background: #FFF;
+            border: 1px solid rgba(132, 144, 255, 0.5);
+            color: #060D1C !important;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+
+}
+
+
+.withdrawal-modal-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #060d1c84;
+    position: absolute;
+    z-index: 11111111;
+    color: #FFF;
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF;
+        margin: auto;
+        width: 100%;
+        max-width: 600px;
+        min-height: 500px;
+        border-radius: 30px;
+        position: relative;
+
+        .close-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 3rem;
+            top: 3rem;
+            width: 49px;
+            height: 49px;
+            border: 2px solid #4CD3E3;
+            border-radius: 57.1429px;
+            font-size: 32px;
+            color: #CC2828;
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 120px;
+            background: rgba(132, 144, 255, 0.15);
+            color: #4CD3E3; 
+            font-size: 64px;  
+            border-radius: 50%;    
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+
+            h3 {
+                font-family: 'cabinet-grotesk-bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                color: #060D1C;
+            }
+            p  {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                color: #656468;
+                margin-top: 1rem;
+            }
+        }
+
+
+        .withdrawal-modal-cta {
+            width: 100%;
+            max-width: 288px;
+            height: 50px;
+            margin-top: 2rem;
+            background: #8490FF;
+            border: 0.638138px solid #8490FF;
+            border-radius: 64px;
+            font-family: 'cabinet-grotesk-medium';
+            font-size: 18px;
+            color: #FFF;
+        }
+    }
+}

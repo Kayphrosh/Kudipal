@@ -5,6 +5,7 @@
 .list-container header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .list-container header h3 {
   font-family: "cabinet-grotesk-bold";
