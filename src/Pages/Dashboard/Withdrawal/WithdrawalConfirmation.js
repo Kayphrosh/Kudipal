@@ -1,6 +1,5 @@
 import React from 'react';
 import './withdrawal.css';
-import { Icon } from '@iconify/react';
 
 const WithdrawalConfirmation = () => {
   return (

@@ -1,1 +1,80 @@
-/*# sourceMappingURL=fund-wallet.css.map */
+.fund-wallet-container {
+  display: flex;
+}
+.fund-wallet-container main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 2rem;
+}
+.fund-wallet-container main header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fund-wallet-container main header h3 {
+  font-family: "cabinet-grotesk-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #060D1C;
+  text-align: left;
+}
+.fund-wallet-container main header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #656468;
+  margin-top: 0.5rem;
+  max-width: 350px;
+}
+.fund-wallet-container main form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+.fund-wallet-container main form div {
+  display: flex;
+  flex-direction: column;
+}
+.fund-wallet-container main form div label {
+  color: #656468;
+  margin-bottom: 1rem;
+}
+.fund-wallet-container main form div input {
+  height: 50px;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(132, 144, 255, 0.2470588235);
+  font-family: "cabinet-grotesk-regular";
+  font-size: 16px;
+  color: #060D1C;
+}
+.fund-wallet-container main form div input:hover {
+  border: 1px solid rgba(132, 144, 255, 0.2470588235);
+}
+.fund-wallet-container main .fund-wallet-cta {
+  margin-top: 2rem;
+  width: 100%;
+}
+.fund-wallet-container main .fund-wallet-cta button {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  height: 50px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 5px;
+  align-items: center;
+}
+.fund-wallet-container main .fund-wallet-cta button #icon {
+  color: #8490ff;
+  font-size: 24px;
+}/*# sourceMappingURL=fund-wallet.css.map */

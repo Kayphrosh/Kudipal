@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './withdrawal.css';
 import DashboardNavbar from '../../../components/Dashboard Navbar/DashboardNavbar';
 import backArrow from '../../../Images/backIcon.svg';

@@ -1,0 +1,88 @@
+.fund-wallet-container {
+    display: flex;
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 4rem 2rem;
+
+        header  {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+
+            h3 {
+                font-family: 'cabinet-grotesk-bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                color: #060D1C;
+                text-align: left;
+            }
+            p  {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: left;
+                color: #656468;
+                margin-top: .5rem;
+                max-width: 350px;
+            }  
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 1.5rem;
+            margin-top: 2rem;
+            width: 100%;
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    color: #656468;
+                    margin-bottom: 1rem;
+                }
+
+                input {
+                    height: 50px;
+                    width: 100%;
+                    padding: 0 1rem;
+                    border-radius: 5px;
+                    outline: none;
+                    border: 1px solid #8490ff3f;
+                    font-family: 'cabinet-grotesk-regular';
+                    font-size: 16px;
+                    color: #060D1C;
+                }
+                input:hover {
+                    border: 1px solid #8490ff3f;
+                }
+            }
+        }
+        .fund-wallet-cta {
+            margin-top: 2rem;
+            width: 100%;
+
+            button {
+                display: flex;
+                justify-content: center;
+                column-gap: .5rem;
+                height: 50px;
+                width: 100%;
+                max-width: 200px;
+                border-radius: 5px;
+                align-items: center;
+
+                #icon {
+                    color: #8490ff;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,16 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link , useNavigate} from 'react-router-dom';
 import './dashboard-transaction.css';
 import { Icon } from '@iconify/react';
-const TransactionBalance = () => {
+
+const TransactionBalance = (props) => {
+
+  const navigate = useNavigate();
+
+  const navigateToWithdrawal = () => {
+    navigate('/withdrawal');
+  };
+
+
   return (
     <div className="transaction-balance">
       <header className="">
         <h3>Transaction</h3>
 
         <span className="transaction-cta">
-          <button className="widthrawal-btn">Withdraw</button>
-          <button className="fund-btn">Fund Wallet</button>
+          <button className="widthrawal-btn" onClick={navigateToWithdrawal}>
+            Withdraw
+          </button>
+          <button className="fund-btn" onClick={() => props.fundModal()}>
+            Fund Wallet
+          </button>
         </span>
       </header>
 
